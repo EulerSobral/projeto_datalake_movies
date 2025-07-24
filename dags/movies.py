@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
 from datetime import datetime
 
-with DAG("movie_list", start_date=datetime(2025,1,1), schedule_interval=None) as dag:
+with DAG("movie_list", start_date=datetime(2025,1,1), schedule_interval='@monthly') as dag:
     
     bronze = SparkSubmitOperator(
         task_id="bronze",
