@@ -35,7 +35,7 @@ def movie_lists():
 
         headers = {
                       "accept": "application/json",
-                      "Authorization": "Bearer SUA_CHAVE_DE_API_AQUI"
+                      "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjODlhN2E4ZTM2NzdjMjAyMDQ0OWY1MzNmYzBkNGUxZiIsIm5iZiI6MTczNjcyMDQ1NS44NzUsInN1YiI6IjY3ODQ0MDQ3YWJhYmJiYTA0MGJiNjM3MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.N1_ZwXeQiwoHDtpGWFwqjWuibB_we0iFHnVRpr7IZhQ"
                   }
 
         response = requests.get(url, headers=headers)
