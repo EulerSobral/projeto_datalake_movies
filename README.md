@@ -11,6 +11,7 @@ Para acessar o dashboard [clique aqui](https://app.powerbi.com/view?r=eyJrIjoiY2
 Primeiro, instale o [Docker](https://www.docker.com/) em sua máquina.
 
 Agora, garanta que a pasta /spark-data tenha permissão do seu sistema operacional para realizar leitura e escrita de arquivos, se estiver utilizando o Linux faça o seguinte procedimento: 
+
 Digite o comando: sudo chown -R $USER:$USER ./spark-data  
 Depois que o comando anterior for executado, digite esse comando: chmod -R 777 ./spark-data
 
